@@ -15,12 +15,14 @@ export default function Skills() {
                 <h2 class="text-3xl md:text-5xl font-black tracking-tight">
                     Projets_Déployés.<span class="text-[#4B8A74]">env</span>
                 </h2>
-                <div class="h-[2px] w-20 bg-gradient-to-r from-[#4B8A74] to-transparent mx-auto lg:mx-0 mt-4"></div>
+                <div class="h-0.5 w-20 bg-linear-to-r from-[#4B8A74] to-transparent mx-auto lg:mx-0 mt-4"></div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                <div class="relative group rounded-xl border border-slate-800 bg-[#0e1416]/60 backdrop-blur-sm overflow-hidden flex flex-col justify-between transition-all duration-300 hover:border-[#4B8A74]/50 hover:shadow-[0_0_30px_rgba(75,138,116,0.15)]">
+                <div class="relative group rounded-xl border border-slate-800 bg-[#0e1416]/60 backdrop-blur-sm overflow-hidden flex flex-col justify-between p-6 h-full
+            transition-all duration-300 ease-out 
+            hover:-translate-y-2 hover:border-[#4B8A74] hover:shadow-[0_0_30px_rgba(75,138,116,0.25)]">
                     <div class="h-[1px] w-full bg-gradient-to-r from-transparent via-[#4B8A74] to-transparent opacity-50"></div>
 
                     <div class="p-6 space-y-4">
@@ -54,8 +56,10 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div class="relative group rounded-xl border border-slate-800 bg-[#0e1416]/60 backdrop-blur-sm overflow-hidden flex flex-col justify-between transition-all duration-300 hover:border-[#4B8A74]/50 hover:shadow-[0_0_30px_rgba(75,138,116,0.15)]">
-                    <div class="h-[1px] w-full bg-gradient-to-r from-transparent via-[#4B8A74] to-transparent opacity-50"></div>
+                <div class="relative group rounded-xl border border-slate-800 bg-[#0e1416]/60 backdrop-blur-sm overflow-hidden flex flex-col justify-between p-6 h-full
+            transition-all duration-300 ease-out 
+            hover:-translate-y-2 hover:border-[#4B8A74] hover:shadow-[0_0_30px_rgba(75,138,116,0.25)]">
+                    <div class="h-px w-full bg-linear-to-r from-transparent via-[#4B8A74] to-transparent opacity-50"></div>
 
                     <div class="p-6 space-y-4">
                         <div class="flex justify-between items-center font-mono text-[10px] text-slate-500">
@@ -88,8 +92,11 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div class="relative group rounded-xl border border-slate-800 bg-[#0e1416]/60 backdrop-blur-sm overflow-hidden flex flex-col justify-between transition-all duration-300 hover:border-[#4B8A74]/50 hover:shadow-[0_0_30px_rgba(75,138,116,0.15)]">
+                <div class="relative group rounded-xl border border-slate-800 bg-[#0e1416]/60 backdrop-blur-sm overflow-hidden flex flex-col justify-between p-6 h-full
+            transition-all duration-300 ease-out 
+            hover:-translate-y-2 hover:border-[#4B8A74] hover:shadow-[0_0_30px_rgba(75,138,116,0.25)]">
                     <div class="h-[1px] w-full bg-gradient-to-r from-transparent via-[#4B8A74] to-transparent opacity-50"></div>
+                    <div class="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full group-hover:animate-[shimmer_0.75s_ease-out] pointer-events-none"></div>
 
                     <div class="p-6 space-y-4">
                         <div class="flex justify-between items-center font-mono text-[10px] text-slate-500">

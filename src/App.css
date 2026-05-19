@@ -50,3 +50,22 @@
 .animate-pulse-cyan {
   animation: pulse-cyan 15s ease-in-out infinite;
 }
+
+@keyframes rotate-gradient {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-border-beam::before {
+  content: '';
+  position: absolute;
+  inset: -2px; /* Dépasse légèrement de la carte */
+  background: conic-gradient(from 0deg, transparent 60%, #65A68E, #4B8A74, transparent 100%);
+  animation: rotate-gradient 4s linear infinite;
+  border-radius: 12px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.animate-border-beam:hover::before {
+  opacity: 1;
+}
