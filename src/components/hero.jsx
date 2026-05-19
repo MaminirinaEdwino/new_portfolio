@@ -5,9 +5,9 @@ export default function Hero() {
 
         <section className="relative min-h-screen w-full bg-[#0a0f12] text-slate-100 overflow-hidden flex items-center justify-center font-sans">
 
-            <div className="absolute inset-0 bg-[linear-gradient(to_right,#142520_1px,transparent_1px),linear-gradient(to_bottom,#142520_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-30"></div>
+            <div className="absolute inset-0 bg-[linear-gradient(to_right,#142520_1px,transparent_1px),linear-gradient(to_bottom,#142520_1px,transparent_1px)] bg-size-[4rem_4rem] mask-[radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-30"></div>
 
-            <div className="absolute top-1/4 right-1/4 w-[500px] h-[500px] bg-[#4B8A74] rounded-full blur-[150px] opacity-10 pointer-events-none"></div>
+            <div className="absolute top-1/4 right-1/4 w-125 h-125 bg-[#4B8A74] rounded-full blur-[150px] opacity-10 pointer-events-none"></div>
             <div className="absolute bottom-1/4 left-1/4 w-[400px] h-[400px] bg-cyan-900 rounded-full blur-[130px] opacity-10 pointer-events-none"></div>
 
             <div className="relative z-10 container mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -19,7 +19,7 @@ export default function Hero() {
 
                     <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
                         Maminirina Edwino<br />
-                        <span className="bg-gradient-to-r from-[#65A68E] via-[#4B8A74] to-cyan-400 bg-clip-text text-transparent font-mono text-2xl md:text-4xl block mt-2">
+                        <span className="animate-typing bg-gradient-to-r from-[#65A68E] via-[#4B8A74] to-cyan-400 bg-clip-text text-transparent font-mono text-2xl md:text-4xl block mt-2">
                             Full-Stack Dev & Cyber Architect
                         </span>
                     </h1>

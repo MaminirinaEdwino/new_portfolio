@@ -52,13 +52,20 @@
 }
 
 @keyframes rotate-gradient {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
+
 .animate-border-beam::before {
   content: '';
   position: absolute;
-  inset: -2px; /* Dépasse légèrement de la carte */
+  inset: -2px;
+  /* Dépasse légèrement de la carte */
   background: conic-gradient(from 0deg, transparent 60%, #65A68E, #4B8A74, transparent 100%);
   animation: rotate-gradient 4s linear infinite;
   border-radius: 12px;
@@ -66,6 +73,98 @@
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 .animate-border-beam:hover::before {
   opacity: 1;
+}
+
+.typewriter {
+  overflow: hidden;
+  /* Ensures content is hidden until revealed */
+  /* The blinking cursor */
+  white-space: nowrap;
+  /* Keeps text on a single line */
+  margin: 0 auto;
+  width: 0;
+  /* Typing: 3.5s duration, 24 steps (number of characters) */
+  animation:
+
+    typing 5s steps(24, end) infinite,
+    blink-caret .75s step-end infinite;
+}
+
+.animate-typing {
+  overflow: hidden;
+  /* Ensures content is hidden until revealed */
+  /* The blinking cursor */
+  white-space: nowrap;
+  animation:
+
+    typing 10s steps(24, end) infinite,
+    blink-caret .75s step-end infinite;
+}
+
+/* Reveal text by increasing width */
+@keyframes typing {
+  0% {
+    width: 0
+  }
+
+  50% {
+    width: 100%
+  }
+
+  100% {
+    width: 0%
+  }
+}
+
+/* Blink the right border */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
+
+
+.tech-grid {
+  &>:nth-child(1) {
+    animation: move_tech_grid 5s ease-in-out infinite;
+  }
+
+  &>:nth-child(2) {
+    animation: move_tech_grid 5s ease-in-out infinite;
+    animation-delay: 1s;
+  }
+
+  &>:nth-child(3) {
+    animation: move_tech_grid 5s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+
+  &>:nth-child(4) {
+    animation: move_tech_grid 5s ease-in-out infinite;
+    animation-delay: 3s;
+
+  }
+}
+
+@keyframes move_tech_grid {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3em);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }

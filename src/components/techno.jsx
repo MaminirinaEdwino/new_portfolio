@@ -19,9 +19,9 @@ export default function Techno() {
                     <div class="h-[2px] w-20 bg-gradient-to-r from-[#4B8A74] to-transparent mx-auto lg:mx-0 mt-4"></div>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 tech-grid">
 
-                    <div class="p-6 rounded-xl border border-slate-800 bg-[#0e1416]/40 backdrop-blur-sm space-y-4">
+                    <div class="p-6 rounded-xl border border-slate-800 bg-[#0e1416]/40 backdrop-blur-sm space-y-4  hover:border-[#4B8A74] hover:shadow-[0_0_30px_rgba(75,138,116,0.25)] hover:-translate-y-3 hover:relative transition-all duration-300 ease-out" >
                         <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                             <h3 class="font-mono text-sm font-bold tracking-wider text-[#65A68E] uppercase">
                                 01 // Core_Langs
@@ -49,7 +49,7 @@ export default function Techno() {
                         </ul>
                     </div>
 
-                    <div class="p-6 rounded-xl border border-slate-800 bg-[#0e1416]/40 backdrop-blur-sm space-y-4">
+                    <div class="p-6 rounded-xl border border-slate-800 bg-[#0e1416]/40 backdrop-blur-sm space-y-4 hover:border-[#4B8A74] hover:shadow-[0_0_30px_rgba(75,138,116,0.25)] hover:-translate-y-3 hover:relative transition-all duration-300 ease-out">
                         <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                             <h3 class="font-mono text-sm font-bold tracking-wider text-[#65A68E] uppercase">
                                 02 // Engine_Back
@@ -77,7 +77,7 @@ export default function Techno() {
                         </ul>
                     </div>
 
-                    <div class="p-6 rounded-xl border border-slate-800 bg-[#0e1416]/40 backdrop-blur-sm space-y-4">
+                    <div class="p-6 rounded-xl border border-slate-800 bg-[#0e1416]/40 backdrop-blur-sm space-y-4 hover:border-[#4B8A74] hover:shadow-[0_0_30px_rgba(75,138,116,0.25)] hover:-translate-y-3 hover:relative transition-all duration-300 ease-out">
                         <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                             <h3 class="font-mono text-sm font-bold tracking-wider text-[#65A68E] uppercase">
                                 03 // Client_Side
@@ -105,7 +105,7 @@ export default function Techno() {
                         </ul>
                     </div>
 
-                    <div class="p-6 rounded-xl border border-slate-800 bg-[#0e1416]/40 backdrop-blur-sm space-y-4">
+                    <div class="p-6 rounded-xl border border-slate-800 bg-[#0e1416]/40 backdrop-blur-sm space-y-4 hover:border-[#4B8A74] hover:shadow-[0_0_30px_rgba(75,138,116,0.25)] hover:-translate-y-3 hover:relative transition-all duration-300 delay-150 ease-out">
                         <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                             <h3 class="font-mono text-sm font-bold tracking-wider text-[#65A68E] uppercase">
                                 04 // Data_&_Ops
