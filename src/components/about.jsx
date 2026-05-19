@@ -1,12 +1,17 @@
 export default function About() {
     return <section id="about" className="relative min-h-screen w-full bg-[#0a0f12] text-slate-100 overflow-hidden flex items-center justify-center py-20 font-sans">
+        <div class="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[#4B8A74]/30 to-transparent pointer-events-none animate-scanline"></div>
 
+        <div class="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(20,37,32,0.1)_1px,transparent_1px)] bg-[size:100%_0.5rem] pointer-events-none"></div>
+
+        <div class="absolute bottom-0 right-0 w-[600px] h-[600px] bg-[#2A5244] rounded-full blur-[180px] pointer-events-none animate-pulse-slow"></div>
         <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(20,37,32,0.1)_1px,transparent_1px)] bg-[size:100%_0.5rem] pointer-events-none"></div>
         <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-[#2A5244] rounded-full blur-[180px] opacity-10 pointer-events-none"></div>
 
         <div className="relative z-10 container mx-auto px-6 max-w-6xl">
 
             <div className="mb-16 space-y-2 text-center lg:text-left">
+                
                 <div className="font-mono text-xs tracking-widest text-[#65A68E] uppercase">
                     [SECTION_02] // IDENTITY_QUERY
                 </div>

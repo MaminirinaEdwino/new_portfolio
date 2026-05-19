@@ -2,6 +2,7 @@ import image from "../assets/image.png";
 
 export default function Hero() {
     return <section className="flex gap-1 h-screen">
+
         <section className="relative min-h-screen w-full bg-[#0a0f12] text-slate-100 overflow-hidden flex items-center justify-center font-sans">
 
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#142520_1px,transparent_1px),linear-gradient(to_bottom,#142520_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-30"></div>
@@ -43,11 +44,12 @@ export default function Hero() {
                 <div className="lg:col-span-5 flex justify-center relative">
                     <div className="absolute inset-0 bg-gradient-to-tr from-[#4B8A74]/20 to-transparent rounded-2xl blur-2xl transform scale-95 opacity-50 animate-pulse"></div>
 
-                    <div className="relative p-2 rounded-2xl border border-slate-800 bg-[#0e1416]/80 backdrop-blur-sm shadow-2xl max-w-[400px] w-full">
-                        <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-[#65A68E]"></div>
-                        <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-slate-700"></div>
-                        <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-slate-700"></div>
-                        <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-[#65A68E]"></div>
+                    <div className="relative p-2 rounded-2xl border border-slate-800 bg-[#0e1416]/80 backdrop-blur-sm shadow-2xl max-w-100 w-full">
+                        <div class="absolute inset-0 bg-[linear-gradient(to_right,#142520_1px,transparent_1px),linear-gradient(to_bottom,#142520_1px,transparent_1px)] bg-size-[4rem_4rem] mask-[radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-30"></div>
+
+                        <div class="absolute top-1/4 right-1/4 w-[500px] h-[500px] bg-[#4B8A74] rounded-full blur-[150px] pointer-events-none animate-pulse-slow"></div>
+
+                        <div class="absolute bottom-1/4 left-1/4 w-[400px] h-[400px] bg-cyan-900 rounded-full blur-[130px] pointer-events-none animate-pulse-cyan"></div>
 
                         <img src={image} alt="Maminirina Edwino Avatar" className="rounded-xl w-full object-cover border border-slate-800" />
                     </div>
@@ -58,6 +60,6 @@ export default function Hero() {
             <div className="absolute bottom-4 left-6 hidden md:block font-mono text-[10px] text-slate-600 tracking-widest">
                 LATENCY: 12MS // DEPLOYED_V3.2
             </div>
-        </section>        
+        </section>
     </section>
 }
